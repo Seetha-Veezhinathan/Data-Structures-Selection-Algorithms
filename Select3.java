@@ -2,6 +2,8 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.io.IOException;
 
+/* SELECT3: Selection algorithm with linear worst-case time, but with a large constant factor.*/
+
 public class Select3 {
 	
 	int array[];
