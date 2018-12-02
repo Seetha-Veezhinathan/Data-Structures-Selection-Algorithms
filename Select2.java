@@ -2,6 +2,9 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.io.IOException;
 
+/* SELECT2: Randomized selection. (The textbook calls it Quick-Select, p.246.) This algorithm has
+an average time complexity of O(n) and a worst-case time of O(n2).*/
+
 public class Select2 {
 	int array[], array1[];
 	int COMPCOUNT = 0;
