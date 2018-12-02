@@ -2,6 +2,9 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.io.IOException;
 
+/* SELECT1: Sort the array using Quicksort and pick the kth smallest element. This has average time 
+complexity of O(n log n) and worst-case time of O(n2). */
+
 public class Select1 {
     int array[], array1[];
     int QCOUNT = 0;
